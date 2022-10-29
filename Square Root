@@ -1,0 +1,50 @@
+#Estimate square roots using the Babylonian and Bakhshali methods
+
+def babylonian(num):
+  x = 1
+  
+  for i in range (99):
+    x = 0.5 * (x + (num / x))
+  
+  return x
+  
+def bakhshali(num):
+  x = 1
+  x2 = x
+  
+  for i in range (99):
+    a = (num-(x2**2))/(2*x2)
+    b = x2 + a
+    #i += 1
+    x2 = b - ((a**2) / (2*b))
+  
+  return x2
+  
+####################
+print ("Hello! This program will estimate the square root of any number.")
+
+again = "yes"
+while (again == "yes"):
+  print ("\nChoose the method you wish to use:")
+  print ("a = Babylonian Method\nb = Bakhshali Method")
+  choice = input("Which method would you like to use? Enter \"a\" or \"b\": ")
+  #num = int(input("Enter the number would would like to use: "))
+  
+  while (choice != "a" and choice != "b"):
+    print ("Invalid input. Try again!\n")
+    choice = input("Which method would you like to use? Enter \"a\" or \"b\": ")
+  
+  if (choice == "a"):
+    num = int(input("Enter the number would would like to use: "))
+    answer = babylonian(num)
+    print ("\nBabaylonian Method: " + str(answer) + " is the square root", end = " ")
+    print ("of " + str(num) + ".")
+  else:
+    num = int(input("Enter the number would would like to use: "))
+    answer = bakhshali(num)
+    print ("\nBakhshali Method: " + str(answer) + " is the square root", end = " ")
+    print ("of " + str(num) + ".")
+    
+  again = input("\nEnter another number? Enter \"yes\" or \"no\": ")
+  
+print ("Done!")
