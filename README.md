@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Jaylin03.
-- 👀 I’m interested in relearning Java.
+- 👋 Hi, my name is Jaylin Lee-Sumlin.
+- 👀 I’m interested in full stack development.
 - 🌱 I’m currently learning Python.
-- 💞️ I’m looking to collaborate on small Java projects to enhance my skills.
+- 💞️ I’m looking to create small full stack projects to enhance my skills.
 - 📫 How to reach me: (email) jaylinleesumlin@gmail.com.
 
 <!---
