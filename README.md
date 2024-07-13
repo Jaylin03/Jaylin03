@@ -1,6 +1,6 @@
 - 👋 Hi, my name is Jaylin Lee-Sumlin.
 - 👀 I’m interested in full stack development.
-- 🌱 I’m currently learning Python.
+- 🌱 I’m currently learning React.
 - 💞️ I’m looking to create small full stack projects to enhance my skills.
 - 📫 How to reach me: (email) jaylinleesumlin@gmail.com.
 
